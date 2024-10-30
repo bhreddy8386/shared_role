@@ -1,4 +1,3 @@
-- name: print_role
-  src: git@github.com:bhreddy8386/pf_update.git
+- src: git@github.com:bhreddy8386/pf_update.git
   scm: git
   version: "main"
