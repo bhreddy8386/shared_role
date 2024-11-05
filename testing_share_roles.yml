@@ -2,11 +2,11 @@
 - hosts: localhost
   gather_facts: no
   tasks:
+    #- import_role:
+     #    name: print_role
     - import_role:
-         name: print_role
-    - import_role:
-         name: print_role
-         tasks_from: bhr.yml
+         name: saikiran
+         tasks_from: sai.yml
  # roles:
  #   - print_role
     
